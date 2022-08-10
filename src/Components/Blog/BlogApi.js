@@ -1,0 +1,36 @@
+const BlogApi = [
+    {
+      id: 1,
+      image: "https://www2.deloitte.com/content/dam/html/us/deloitte-university/current-release/imgs/Phase-01/history-of-DU-ORIG-AS-edited.jpg",
+      date: "August 2022",
+      title_one: "MLT Summer Seminar",
+      desc_one: "Talk about summer seminar & prep work",
+      title_two: "What is MLT?",
+      desc_two: "Talk about trailblazer ranch",
+      title_three: "Connections",
+      desc_three: "What I got to do",
+    },
+    {
+      id: 2,
+      image: "https://a.cdn-hotels.com/gdcs/production196/d1429/5c2581f0-c31d-11e8-87bb-0242ac11000d.jpg?impolicy=fcrop&w=800&h=533&q=medium",
+      date: "April 2022",
+      title_one: "Morgan Stanley",
+      desc_one: "Talk about program",
+      title_two: "Technology",
+      desc_two: "Talk about tech talks & workshops",
+      title_three: "Business Analytics",
+      desc_three: "Talk about connections & networking",
+    },
+    {
+      id: 3,
+      image: "https://media-exp1.licdn.com/dms/image/C562DAQF4jVG6gBd_tA/profile-treasury-image-shrink_800_800/0/1650735619512?e=1660143600&v=beta&t=xAVeFZbmjXIhRN92r7NbZv8hrBFxXYJXMewa8IFebQg",
+      date: "March 2022",
+      title_one: "Salesforce B.A.S.E. Camp",
+      desc_one: "As a B.A.S.E. Camp fellow, I was selected to participate in a multi-day, immersive learning experience hosted at Salesforce's Trailblazer Ranch in northern California. This program was designed for students to connect with other computer science majors from schools around the nation, participate in skill-building workshops, impactful volunteer activities, and learn more about early career opportunities in tech.",
+      title_two: "Camp Fellow",
+      desc_two: "As participants in the program, we stayed at the newly opened Trailblazer Ranch on the 1440 Multiversity campus, surrounded by beautiful California wildlife! Through wilderness hikes, nature walks, and scavenger hunts, we were able to make the most out of our time here. While at B.A.S.E. Camp, we were introduced to Salesforce’s products and who they are as a company. We were able to learn about their history, core values, and also got to hear panels full of current employees depicting what it was like to work at Salesforce. We were led through activities such as their goal setting framework V2MOM, which stands for Vision, Values, Method, Obstacles, and Measures as well as pitching brand redesigns using Salesforce technology. One of the best parts of B.A.S.E. camp was the strong community and friendship we built while at TrThe fun continued with Salesforce trivia and two team challenges—a Chopped-style cooking challenge, and a shelter building wilderness challenge!",
+      title_three: "Volunteering",
+      desc_three: "Talk about trailblazer ranch",
+    },
+  ]
+  export default BlogApi
