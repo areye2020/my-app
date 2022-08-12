@@ -32,7 +32,7 @@ const Features = () => {
             <div className='box btn_shadow'>
               <img className="icons" src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' alt='' />
               <h2>React.js</h2>
-              <p>I was introduced to React during my first internship at Micrsoft. I have developed three web application projects using React to create a more interactive UI (inlucding the one your on right now).</p>
+              <p>I was introduced to React during my first internship at Micrsoft. I have developed three web application projects using <strong>HTML, CSS, and React</strong> to create a more interactive UI (inlucding the one your on right now).</p>
               <a href=''>
                 <i class='fas fa-arrow-right'></i>
               </a>
@@ -46,17 +46,17 @@ const Features = () => {
               </a>
             </div>
             <div className='box btn_shadow'>
-              <img className='icons' src='https://rochester.kidsoutandabout.com/sites/default/files/html_css_javascript.jpeg' alt='' />
-              <h2>HTML and CSS</h2>
-              <p>Talk about HTML and CSS experiance</p>
+              <img className='icons' src='https://cdn.icon-icons.com/icons2/1508/PNG/512/rstudio_104598.png' alt='' />
+              <h2>R Programming Language</h2>
+              <p>I took a Data Science course and learned topics such as <strong>regression modeling, casual inference, and predictive modeling</strong>. </p>
               <a href=''>
                 <i class='fas fa-arrow-right'></i>
               </a>
             </div>
             <div className='box btn_shadow'>
-              <img className='icons' src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' alt='' />
-              <h2>GIT</h2>
-              <p>Talk about using Git for source control</p>
+              <img className='icons' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1200px-CSS3_and_HTML5_logos_and_wordmarks.svg.png' alt='' />
+              <h2>HTML and CSS</h2>
+              <p>I started with web development in 2018 using HTML, CSS, and JavaScrtipt. </p>
               <a href=''>
                 <i class='fas fa-arrow-right'></i>
               </a>

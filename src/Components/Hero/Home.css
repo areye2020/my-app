@@ -81,8 +81,13 @@
       flex-direction: column-reverse;
     }
     .hero .right_img {
-      width: 100%;
+      width: 40;
       height: 54vh;
+    }
+
+    .hero_img{
+      height: 47vh;
+      width: 70%;
     }
 
     .python{
