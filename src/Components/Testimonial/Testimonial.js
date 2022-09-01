@@ -29,8 +29,8 @@ const Testimonial = () => {
       <section className='Testimonial' id='clients'>
         <div className='container'>
           <div className='heading text-center'>
-            <h4>SEE MY PREVIOS PROJECTS</h4>
-            <h1>Personal Work</h1>
+            <h4>SEE MY PAST PROJECTS</h4>
+            <h1>Previous Work</h1>
           </div>
           <div className='slide'>
             {/*{TestimonialApi.map((val, index) => {
@@ -43,10 +43,10 @@ const Testimonial = () => {
 
             <div className='slide_button'>
               <button className='btn_shadow prev_btn' onClick={() => setIndex(index - 1)}>
-                <i class='fas fa-arrow-left'></i>
+                <img className='prev_icon' src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png"></img>
               </button>
               <button className='btn_shadow next_btn' onClick={() => setIndex(index + 1)}>
-                <i class='fas fa-arrow-right'></i>
+                <img className="next_icon" src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png"></img>
               </button>
             </div>
           </div>

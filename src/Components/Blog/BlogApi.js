@@ -4,7 +4,7 @@ const BlogApi = [
       image: "https://www2.deloitte.com/content/dam/html/us/deloitte-university/current-release/imgs/Phase-01/history-of-DU-ORIG-AS-edited.jpg",
       date: "August 2022",
       title_one: "MLT Summer Seminar",
-      desc_one: "Talk about summer seminar & prep work",
+      desc_one: "Talk about what MLT is and the goal of summer seminar",
       title_two: "Companies & Networking",
       desc_two: "Talk about company reps & table talks",
       title_three: "Intuit Case",

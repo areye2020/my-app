@@ -9,7 +9,7 @@ const Resume = () => {
       <section className='Resume' id='resume'>
         <div className='container top'>
           <div className='heading text-center'>
-            <h4>4+ YEARS OF EXPERIENCE</h4>
+            <h4>EXPERIENCE</h4>
             <h1>My Resume</h1>
           </div>
 
@@ -26,7 +26,25 @@ const Resume = () => {
                     return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
                   }
                 })} */}
-
+                <div className='box btn_shadow'>
+                  <div className='title_content d_flex'>
+                    <div className='title'>
+                      <h2>University of Texas at Austin</h2>
+                      <span>(2020 - 2024)</span>
+                    </div>
+                    <div className='rate'>
+                      <button className='btn_shadow '>
+                        <img className="edu_icon" src="https://www.tacc.utexas.edu/documents/1084364/1085221/utaustin-seal.png/"></img>
+                      </button>
+                    </div>
+                  </div>
+                  <hr />
+                  <ul>
+                    <p>•        Enrolled in an integrated honors degree program between the University of Texas Computer Science Department and the Canfield Business Honors Program: <a href="https://csb.utexas.edu/">Texas CSB</a></p>
+                    <p>•        As a UTCS ambassador, I conduct departmental tours and meet with prospective students in coffee chats</p>
+                    <p>•        Hispanic Association of Computer Sciencetists Junior Officer and cadet in the Army ROTC program</p>
+                  </ul>
+                </div>
                 <div className='box btn_shadow'>
                   <div className='title_content d_flex'>
                     <div className='title'>
@@ -43,28 +61,9 @@ const Resume = () => {
                   </div>
                   <hr />
                   <ul>
-                    <p>•        Amazing<a href="https://code2college.org/"> non-profit </a>that introduced me to a career in technology</p>
-                    <p>•        Participated in professional development workshops, case competitions, and STEM exploratory projects</p>
-                    <p>•        Completed a full-stack web app curriculum that incorporated front-end, back-end, and database technologies</p>
-                  </ul>
-                </div>
-                <div className='box btn_shadow'>
-                  <div className='title_content d_flex'>
-                    <div className='title'>
-                      <h2>University of Texas at Austin</h2>
-                      <span>(2020 - 2024)</span>
-                    </div>
-                    <div className='rate'>
-                      <button className='btn_shadow '>
-                        <img className="edu_icon" src="https://www.tacc.utexas.edu/documents/1084364/1085221/utaustin-seal.png/"></img>
-                      </button>
-                    </div>
-                  </div>
-                  <hr />
-                  <ul>
-                    <p>•        Enrolled in an integrated honors degree program between the University of Texas Computer Science Department and the Canfield Business Honors Program: <a href="https://csb.utexas.edu/">Texas CSB</a></p>
-                    <p>•        As a UTCS ambassador, I meet with prospective students in coffee chats and give departmental tours</p>
-                    <p>•        While on campus, I have been involved with the Hispanic Association of Computer Scientists as a Junior Officer and a cadet in the Army ROTC program.</p>
+                    <p>•        Introduction to career in technology<a href="https://code2college.org/"> by this amazing company</a></p>
+                    <p>•        Participated in professional development workshops, case competitions and STEM exploratory projects</p>
+                    <p>•        Completed a full-stack web application curriculum that incorporated front-end, back-end and database technologies</p>
                   </ul>
                 </div>
                 <div className='box btn_shadow'>
@@ -81,8 +80,8 @@ const Resume = () => {
                   </div>
                   <hr />
                   <ul>
-                    <p>•        Completed the Intermediate Software Engineering python cirruculum</p>
-                    <p>•        Refresher on complex data structures, time and space complexity, soring, reccursion, and object oriented design</p>
+                    <p>•        Completed the Intermediate Software Engineering python curriculum</p>
+                    <p>•        Refresher on complex data structures, time and space complexity, sorting, recursion, and object oriented design</p>
                   </ul>
                 </div>
                 
@@ -114,9 +113,9 @@ const Resume = () => {
                   </div>
                   <hr />
                   <ul>
-                    <p>•        Returning intern to ther Dynamics365 space</p>
-                    <p>•        Designed and developed an application that would give customers the ability to customize different attributes of their Live Chat Widget such as color and font to match the existing styles on their webpage</p>
-                    <p>•        Implamented a new feature which allowed customers to preview their customizations live before deployment</p>
+                    <p>•        A returning intern to the Dynamics365 space</p>
+                    <p>•        Designed and developed an application that customers could use to customize different attributes of their Live Chat Widget such as color and font to match existing styles on their webpage</p>
+                    <p>•        Implemented a new feature for customers to preview their customizations live before deployment</p>
                   </ul>
                 </div>
                 <div className='box btn_shadow'>
@@ -133,9 +132,9 @@ const Resume = () => {
                   </div>
                   <hr />
                   <ul>
-                    <p>•        Worked with two other interns to design and develop a custom web application for the Customer Care Application for Dynamics 365 Customer Service</p>
-                    <p>•        Combined previos web development knoledge while learning the React JavaScript libary</p>
-                    <p>•        Introduced to the wireframe design tool, Figma</p>
+                    <p>•        Designed and developed a custom web application for the Customer Care Application in the Dynamics 365 Customer Service space</p>
+                    <p>•        Combined previous web development knowledge while learning the React JavaScript library</p>
+                    <p>•        Introduced to the wireframe design tool Figma</p>
                   </ul>
                 </div>
                 <div className='box btn_shadow'>
@@ -152,8 +151,8 @@ const Resume = () => {
                   </div>
                   <hr />
                   <ul>
-                    <p>•        Created a python script using BitBucket API to locate stale or merged branches in GIT to improve team efficiency</p>
-                    <p>•        Continued to grow my JAVAFX and FXML skills to develop the UI and UX for panel development</p>
+                    <p>•        Created a python script using the BitBucket API to locate stale or merged branches in Git to improve team efficiency</p>
+                    <p>•        Continued to expand my JavaFX and FXML skills to develop the UI and UX for panel development</p>
                   </ul>
                 </div>
                 <div className='box btn_shadow'>
@@ -170,8 +169,8 @@ const Resume = () => {
                   </div>
                   <hr />
                   <ul>
-                    <p>•        Developed customer facing "panels" using  JavaFX, FXML, and Gradle</p>
-                    <p>•        Learned softare engineering practices such as SCRUM and developing my source control knowledge/skills in Git</p>
+                    <p>•        Developed customer facing "panels" using  JavaFX, FXML and Gradle</p>
+                    <p>•        Learned software engineering practices such as SCRUM and developing my source control knowledge/skills in Git</p>
                   </ul>
                 </div>
                 
