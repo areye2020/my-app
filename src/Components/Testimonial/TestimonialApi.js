@@ -38,7 +38,7 @@ const TestimonialApi = [
       design: "MEMORY MANAGER",
       name: "Dynamic Storage Allocator",
       offcer: "C, Computer Architecture",
-      post: "Web App Development",
+      post: "Computer Architecture",
       date: "Mar 2021",
       desc: "During my Computer Architecture Course, we were asked to create a dynamic storage allocator for C programs. The project was to create our own version of the malloc and free routines; my design was to use external fragmentation and block merging) since the OtherBlocks can be coalesced without going through the whole list looking for free blocks.",
       link: "https://dentist3.c2cstudents.org",

@@ -26,7 +26,7 @@ const Resume = () => {
                     return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
                   }
                 })} */}
-                <div className='box btn_shadow'>
+<div className='box btn_shadow'>
                   <div className='title_content d_flex'>
                     <div className='title'>
                       <h2>University of Texas at Austin</h2>
@@ -34,15 +34,15 @@ const Resume = () => {
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
-                        <img className="edu_icon" src="https://www.tacc.utexas.edu/documents/1084364/1085221/utaustin-seal.png/"></img>
+                        <img className="edu_icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/University_of_Texas_at_Austin_logo.svg/2560px-University_of_Texas_at_Austin_logo.svg.png"></img>
                       </button>
                     </div>
                   </div>
                   <hr />
                   <ul>
-                    <p>•        Enrolled in an integrated honors degree program between the University of Texas Computer Science Department and the Canfield Business Honors Program: <a href="https://csb.utexas.edu/">Texas CSB</a></p>
-                    <p>•        As a UTCS ambassador, I conduct departmental tours and meet with prospective students in coffee chats</p>
-                    <p>•        Hispanic Association of Computer Sciencetists Junior Officer and cadet in the Army ROTC program</p>
+                    <p>•        Currently pursuing a degree in Computer Science in UT's rigorous and cutting-edge computer science program.</p>
+                    <p>•        Proudly serve as a Department of Computer Science Ambassador at [University Name], dedicating my time to provide tours and engage in coffee chats with prospective students, offering valuable insights into the program and fostering a sense of community.</p>
+                    <p>•        Actively involved in the Hispanic Association of Computer Scientists (HACS) at [University Name], where I collaborate with fellow members to promote diversity and inclusivity in the tech field while participating in various initiatives and events.</p>
                   </ul>
                 </div>
                 <div className='box btn_shadow'>
@@ -89,7 +89,7 @@ const Resume = () => {
             </div>
             <div className='left'>
               <div className='heading'>
-                <h4>2019-2022</h4>
+                <h4>2019-2023</h4>
                 <h1>Job Experience</h1>
               </div>
 
@@ -102,27 +102,45 @@ const Resume = () => {
                 <div className='box btn_shadow'>
                   <div className='title_content d_flex'>
                     <div className='title'>
-                      <h2>Microsoft SWE Intern</h2>
-                      <span>2022</span>
+                      <h2>Texas Army National Guard</h2>
+                      <span>(2020 - 2023)</span>
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
-                        <img className="cirrus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png"></img>
+                        <img className="cirrus" src="https://www.nicepng.com/png/detail/211-2118812_us-army-us-army-png-logo.png"></img>
                       </button>
                     </div>
                   </div>
                   <hr />
                   <ul>
-                    <p>•        A returning intern to the Dynamics365 space</p>
-                    <p>•        Designed and developed an application that customers could use to customize different attributes of their Live Chat Widget such as color and font to match existing styles on their webpage</p>
-                    <p>•        Implemented a new feature for customers to preview their customizations live before deployment</p>
+                    <p>•        Diligently pursued efforts to locate and neutralize cyber threats by linking historical digital footprints to cyber signatures</p>
+                    <p>•        Specialized in Network Analysis gaining proficiency in industry standard tools such as Nmap and Wireshark</p>
                   </ul>
                 </div>
                 <div className='box btn_shadow'>
                   <div className='title_content d_flex'>
                     <div className='title'>
-                      <h2>Microsoft Explore Intern</h2>
-                      <span>2021</span>
+                      <h2>Salesforce SWE Intern</h2>
+                      <span>(2023)</span>
+                    </div>
+                    <div className='rate'>
+                      <button className='btn_shadow '>
+                        <img className="cirrus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1280px-Salesforce.com_logo.svg.png"></img>
+                      </button>
+                    </div>
+                  </div>
+                  <hr />
+                  <ul>
+                    <p>•        Elevated platform-wide quality while working on Quality Maturity Model enhancements</p>
+                    <p>•        Established accountability measures by integrating a Tableau dashboard</p>
+                    <p>•        Revamped user experience with features like data sorting and multipage navigation</p>
+                  </ul>
+                </div>
+                <div className='box btn_shadow'>
+                  <div className='title_content d_flex'>
+                    <div className='title'>
+                      <h2>Microsoft SWE Intern</h2>
+                      <span>(2022, 2021)</span>
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
@@ -132,34 +150,16 @@ const Resume = () => {
                   </div>
                   <hr />
                   <ul>
-                    <p>•        Designed and developed a custom web application for the Customer Care Application in the Dynamics 365 Customer Service space</p>
-                    <p>•        Combined previous web development knowledge while learning the React JavaScript library</p>
-                    <p>•        Introduced to the wireframe design tool Figma</p>
+                    <p>•        Engineered a customer-facing application allowing customization of Live Chat Widget attributes, enhancing user interaction</p>
+                    <p>•        Successfully implemented a real-time customization preview, enabling customers to assess modifications prior to deployment</p>
+                    <p>•        Designed and developed a Custom Web Application tailored to the Customer Service Hub in Dynamics 365</p>
                   </ul>
                 </div>
                 <div className='box btn_shadow'>
                   <div className='title_content d_flex'>
                     <div className='title'>
                       <h2>Cirrus Logic SWE Intern</h2>
-                      <span>2020</span>
-                    </div>
-                    <div className='rate'>
-                      <button className='btn_shadow '>
-                        <img className="cirrus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cirrus_Logic_logo.svg/2560px-Cirrus_Logic_logo.svg.png"></img>
-                      </button>
-                    </div>
-                  </div>
-                  <hr />
-                  <ul>
-                    <p>•        Created a python script using the BitBucket API to locate stale or merged branches in Git to improve team efficiency</p>
-                    <p>•        Continued to expand my JavaFX and FXML skills to develop the UI and UX for panel development</p>
-                  </ul>
-                </div>
-                <div className='box btn_shadow'>
-                  <div className='title_content d_flex'>
-                    <div className='title'>
-                      <h2>Cirrus Logic SWE Intern</h2>
-                      <span>2019</span>
+                      <span>(2019, 2020)</span>
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
@@ -169,8 +169,9 @@ const Resume = () => {
                   </div>
                   <hr />
                   <ul>
-                    <p>•        Developed customer facing "panels" using  JavaFX, FXML and Gradle</p>
-                    <p>•        Learned software engineering practices such as SCRUM and developing my source control knowledge/skills in Git</p>
+                    <p>•        Spearheaded team productivity by developing a Python script to efficiently identify and manage merged branches, resulting in streamlined operations and enhanced collaboration</p>
+                    <p>•        Distinguished for enhancing user engagement through customized UI/UX design for customer-facing panels using JavaFX, FXML, and Gradle</p>
+                    <p>•        Gained valuable hands-on experience during summer internships at Cirrus Logic, encompassing exposure to software development processes, Git source control, Scrum methodology, and collaborative teamwork</p>
                   </ul>
                 </div>
                 
