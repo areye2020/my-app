@@ -4,7 +4,7 @@ import Slide from "./Slide"
 import TestimonialApi from "./TestimonialApi"
 
 const Testimonial = () => {
-  const [data, setdata] = useState(TestimonialApi)
+  const [data] = useState(TestimonialApi)
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -43,10 +43,10 @@ const Testimonial = () => {
 
             <div className='slide_button'>
               <button className='btn_shadow prev_btn' onClick={() => setIndex(index - 1)}>
-                <img className='prev_icon' src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png"></img>
+                <img alt='' className='prev_icon' src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png"></img>
               </button>
               <button className='btn_shadow next_btn' onClick={() => setIndex(index + 1)}>
-                <img className="next_icon" src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png"></img>
+                <img alt='' className="next_icon" src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png"></img>
               </button>
             </div>
           </div>

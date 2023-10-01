@@ -1,7 +1,5 @@
 import React from "react"
 import "./Resume.css"
-import ResumeApi from "./ResumeApi"
-import Card from "./Card"
 
 const Resume = () => {
   return (
@@ -34,7 +32,7 @@ const Resume = () => {
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
-                        <img className="edu_icon" src="https://www.tacc.utexas.edu/documents/1084364/1085221/utaustin-seal.png/"></img>
+                        <img className="edu_icon" src="https://www.tacc.utexas.edu/documents/1084364/1085221/utaustin-seal.png/" alt=''></img>
                       </button>
                     </div>
                   </div>
@@ -55,7 +53,7 @@ const Resume = () => {
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
-                        <img className="edu_icon" src="https://media.bizj.us/view/img/11799957/code2college-1-01-copy*1200xx800-450-0-15.png"></img>
+                        <img className="edu_icon" src="https://media.bizj.us/view/img/11799957/code2college-1-01-copy*1200xx800-450-0-15.png" alt=''></img>
                       </button>
                     </div>
                   </div>
@@ -74,7 +72,7 @@ const Resume = () => {
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
-                        <img className="cp" src="https://info.codepath.org/hs-fs/hubfs/logo_codepath_darkandgreen.png?width=3447&name=logo_codepath_darkandgreen.png"></img>
+                        <img className="cp" alt='' src="https://info.codepath.org/hs-fs/hubfs/logo_codepath_darkandgreen.png?width=3447&name=logo_codepath_darkandgreen.png"></img>
                       </button>
                     </div>
                   </div>
@@ -107,7 +105,7 @@ const Resume = () => {
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
-                        <img className="cirrus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png"></img>
+                        <img className="cirrus" alt='' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png"></img>
                       </button>
                     </div>
                   </div>
@@ -126,7 +124,7 @@ const Resume = () => {
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
-                      <img className="cirrus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png"></img>
+                      <img className="cirrus" alt='' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png"></img>
                       </button>
                     </div>
                   </div>
@@ -145,7 +143,7 @@ const Resume = () => {
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
-                        <img className="cirrus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cirrus_Logic_logo.svg/2560px-Cirrus_Logic_logo.svg.png"></img>
+                        <img className="cirrus" alt='' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cirrus_Logic_logo.svg/2560px-Cirrus_Logic_logo.svg.png"></img>
                       </button>
                     </div>
                   </div>
@@ -163,7 +161,7 @@ const Resume = () => {
                     </div>
                     <div className='rate'>
                       <button className='btn_shadow '>
-                      <img className="cirrus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cirrus_Logic_logo.svg/2560px-Cirrus_Logic_logo.svg.png"></img>
+                      <img className="cirrus" alt='' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cirrus_Logic_logo.svg/2560px-Cirrus_Logic_logo.svg.png"></img>
                       </button>
                     </div>
                   </div>

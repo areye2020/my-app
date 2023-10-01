@@ -55,7 +55,7 @@ const Contact = () => {
                   <div className='button f_flex'>
                     <a href="https://www.linkedin.com/in/adriana-monica-reyes/">
                     <button className='btn_shadow'>
-                      <img className="icon-pics" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></img>
+                      <img className="icon-pics" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt=''></img>
                     </button>
                   </a>
                   </div>
