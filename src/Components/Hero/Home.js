@@ -1,6 +1,6 @@
 import React from "react"
 import "./Home.css"
-import hero from "../pic/hero.jpg"
+import hero from "../pic/hero copy.jpg"
 
 const Home = () => {
   return (
@@ -51,7 +51,7 @@ const Home = () => {
           </div>
           <div className='right'>
             <div className='right_img'>
-              <img src={hero} alt='' />
+              <img className='left_img' src={hero} alt='' />
             </div>
           </div>
         </div>

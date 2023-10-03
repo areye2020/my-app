@@ -16,7 +16,7 @@ const Resume = () => {
           <div className='content-section mtop d_flex'>
             <div className='left'>
               <div className='heading'>
-                <h4>2018-2022</h4>
+                <h4>2018-2023</h4>
                 <h1>Education</h1>
               </div>
 
@@ -26,7 +26,7 @@ const Resume = () => {
                     return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
                   }
                 })} */}
-<div className='box btn_shadow'>
+                <div className='box btn_shadow'>
                   <div className='title_content d_flex'>
                     <div className='title'>
                       <h2>University of Texas at Austin</h2>
@@ -66,25 +66,6 @@ const Resume = () => {
                     <p>•        Completed a full-stack web application curriculum that incorporated front-end, back-end and database technologies</p>
                   </ul>
                 </div>
-                <div className='box btn_shadow'>
-                  <div className='title_content d_flex'>
-                    <div className='title'>
-                      <h2>Codepath</h2>
-                      <span>2022</span>
-                    </div>
-                    <div className='rate'>
-                      <button className='btn_shadow '>
-                        <img className="cp" src="https://info.codepath.org/hs-fs/hubfs/logo_codepath_darkandgreen.png?width=3447&name=logo_codepath_darkandgreen.png"></img>
-                      </button>
-                    </div>
-                  </div>
-                  <hr />
-                  <ul>
-                    <p>•        Completed the Intermediate Software Engineering python curriculum</p>
-                    <p>•        Refresher on complex data structures, time and space complexity, sorting, recursion, and object oriented design</p>
-                  </ul>
-                </div>
-                
               </div>
             </div>
             <div className='left'>
@@ -153,25 +134,6 @@ const Resume = () => {
                     <p>•        Engineered a customer-facing application allowing customization of Live Chat Widget attributes, enhancing user interaction</p>
                     <p>•        Successfully implemented a real-time customization preview, enabling customers to assess modifications prior to deployment</p>
                     <p>•        Designed and developed a Custom Web Application tailored to the Customer Service Hub in Dynamics 365</p>
-                  </ul>
-                </div>
-                <div className='box btn_shadow'>
-                  <div className='title_content d_flex'>
-                    <div className='title'>
-                      <h2>Cirrus Logic SWE Intern</h2>
-                      <span>(2019, 2020)</span>
-                    </div>
-                    <div className='rate'>
-                      <button className='btn_shadow '>
-                      <img className="cirrus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cirrus_Logic_logo.svg/2560px-Cirrus_Logic_logo.svg.png"></img>
-                      </button>
-                    </div>
-                  </div>
-                  <hr />
-                  <ul>
-                    <p>•        Spearheaded team productivity by developing a Python script to efficiently identify and manage merged branches, resulting in streamlined operations and enhanced collaboration</p>
-                    <p>•        Distinguished for enhancing user engagement through customized UI/UX design for customer-facing panels using JavaFX, FXML, and Gradle</p>
-                    <p>•        Gained valuable hands-on experience during summer internships at Cirrus Logic, encompassing exposure to software development processes, Git source control, Scrum methodology, and collaborative teamwork</p>
                   </ul>
                 </div>
                 
