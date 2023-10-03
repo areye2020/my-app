@@ -41,8 +41,8 @@ const Resume = () => {
                   <hr />
                   <ul>
                     <p>•        Currently pursuing a degree in Computer Science in UT's rigorous and cutting-edge computer science program.</p>
-                    <p>•        Proudly serve as a Department of Computer Science Ambassador at [University Name], dedicating my time to provide tours and engage in coffee chats with prospective students, offering valuable insights into the program and fostering a sense of community.</p>
-                    <p>•        Actively involved in the Hispanic Association of Computer Scientists (HACS) at [University Name], where I collaborate with fellow members to promote diversity and inclusivity in the tech field while participating in various initiatives and events.</p>
+                    <p>•        Proudly serve as a Department of Computer Science Ambassador, dedicating my time to provide tours and engage in coffee chats with prospective students, offering valuable insights into the program and fostering a sense of community.</p>
+                    <p>•        Actively involved in the Hispanic Association of Computer Scientists (HACS), where I collaborate with fellow members to promote diversity and inclusivity in the tech field while participating in various initiatives and events.</p>
                   </ul>
                 </div>
                 <div className='box btn_shadow'>

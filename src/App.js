@@ -17,12 +17,10 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="/features" element={<Features />} /> */}
+        <Route exact path="/" element={<Home />} />
         <Route path="/journey" element={<Journey />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/blog" element={<Blog />} /> */}
         {/* Add more routes for other pages as needed */}
       </Routes>
       <Footer />
