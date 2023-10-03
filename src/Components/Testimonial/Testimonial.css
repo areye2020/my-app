@@ -57,15 +57,14 @@
     height: 8%;
   }
   
-  -----Testimonial slide-----------
+  /*-----Testimonial slide-----------*/
   .Testimonial .slide {
     max-width: 80%;
     margin: auto;
-    height: 1200PX;
+    height: 500px;
     position: relative;
     display: flex;
     overflow: hidden;
-    margin-bottom: 50px;
   }
   article {
     position: absolute;
@@ -76,7 +75,16 @@
     opacity: 0;
     transition: all 0.3s linear;
   }
-
+  article.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  article.lastSlide {
+    transform: translateX(-100%);
+  }
+  article.nextSlide {
+    transform: translateX(100%);
+  }
   /*-----Testimonial slide-----------*/
   @media (max-width: 768px) {
     article {
@@ -100,7 +108,7 @@
       padding: 0 0 0 0px;
     }
     .Testimonial .slide {
-      height: 80vh;
+      height: 70vh;
       max-width: 90%;
     }
     .Testimonial .quote {
