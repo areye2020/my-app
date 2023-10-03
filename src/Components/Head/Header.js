@@ -49,14 +49,14 @@ const Header = () => {
                 Home
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/features" onClick={closeMobileMenu}>
                 Technologies
               </Link>
-            </li>
+            </li> */}
             <li>
-              <Link to="/portfolio" onClick={closeMobileMenu}>
-                Portfolio
+              <Link to="/journey" onClick={closeMobileMenu}>
+                Journey
               </Link>
             </li>
             <li>
