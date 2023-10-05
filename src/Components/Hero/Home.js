@@ -1,6 +1,6 @@
 import React from "react"
 import "./Home.css"
-import hero from "../pic/hero copy.jpg"
+import hero from "../pic/try4.png"
 import Features from "../Features/forHome"
 import Resume from "../Resume/Resume"
 import Contact from "../Contact/Contact"
@@ -52,11 +52,9 @@ const Home = () => {
               </div> */}
             </div>
           </div>
-          <div className='right'>
             <div className='right_img'>
               <img className='left_img' src={hero} alt='' />
             </div>
-          </div>
         </div>
       </section>
       <section>
