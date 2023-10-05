@@ -48,6 +48,7 @@
     width: 20px;
     height: 20px;
   }
+
   .hero .left {
     margin-right: 10%;
   }
@@ -59,46 +60,20 @@
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
     border-radius: 10px;
-    height: 580px;
-    width: 510px;
-    margin-top: 20%;
+    height: 650px;
+    width: 610px;
+    margin-top: 0%;
   }
 
   .hero .right_img img {
     position: absolute;
-    top: 0;
-    right: 10%;
+    top: 3%;
+    right: 5%;
     width: 510px;
+    margin-top: 0%;
   }
+
   @media (max-width: 768px) {
-    .hero .right,
-    .hero .left {
-      width: 100%;
-      margin-left: 20px;
-    }
-  
-    .hero .f_flex {
-      flex-direction: column;
-      flex-direction: column-reverse;
-    }
-    .hero .right_img {
-      width: 100%;
-      height: auto;
-    }
-    .hero .left_img {
-      width: 40%; /* Set the width to match the right image */
-      position: absolute; /* Position absolutely within the parent */
-      height: 50%;
-      top: 10%; /* Adjust the top position as needed */
-      left: 10%; /* Adjust the left position as needed */
-    }
-    
-    /* Adjust the size of the left image's img tag */
-    .hero .left_img img {
-      width: 100%; /* Make the image fill the container */
-      height: 50%; /* Maintain aspect ratio */
-      border-radius: 10px; /* Add border-radius if needed */
-    }
 
     .python{
       scale:1.5;
