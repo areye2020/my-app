@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.30b7f5e2.css",
+    "main.js": "/my-app/static/js/main.38966445.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/IMG_0494.jpg": "/my-app/static/media/IMG_0494.f44675391102b0b4e95c.jpg",
+    "static/media/IMG_1286_Original.jpg": "/my-app/static/media/IMG_1286_Original.6a99925377757e07e585.jpg",
+    "static/media/salePride.jpeg": "/my-app/static/media/salePride.97cd439e2633154049c5.jpeg",
+    "static/media/soccerField.jpg": "/my-app/static/media/soccerField.27126488de0e6f970671.jpg",
+    "static/media/football.png": "/my-app/static/media/football.ca3a1ed8e4263fe27108.png",
+    "static/media/IMG_0493.jpg": "/my-app/static/media/IMG_0493.4ddeb51bb6428368d29a.jpg",
+    "static/media/newMSFT.png": "/my-app/static/media/newMSFT.e8205b464ae95399d09d.png",
+    "static/media/try4.png": "/my-app/static/media/try4.1df9dc5e1dfc4e08175e.png",
+    "static/media/ringDay.jpg": "/my-app/static/media/ringDay.7f13c71dd3b0c58e3411.jpg",
+    "static/media/headshot.png": "/my-app/static/media/headshot.73a9a7c7fd2ab8515064.png",
+    "static/media/IMG_2077 Copy.jpg": "/my-app/static/media/IMG_2077 Copy.6b1e2fe4c052bafb8faf.jpg",
+    "static/media/IMG_3215.jpeg": "/my-app/static/media/IMG_3215.a7f8788fc5a9202a241f.jpeg",
+    "static/media/contact1.png": "/my-app/static/media/contact1.8ddfbfd11798f881db54.png",
+    "static/media/IMG_0468.jpg": "/my-app/static/media/IMG_0468.7b1a4dc2b1cb17999eec.jpg",
+    "index.html": "/my-app/index.html",
+    "main.30b7f5e2.css.map": "/my-app/static/css/main.30b7f5e2.css.map",
+    "main.38966445.js.map": "/my-app/static/js/main.38966445.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30b7f5e2.css",
+    "static/js/main.38966445.js"
+  ]
+}
