@@ -1,10 +1,9 @@
 import React from "react"
 import "./Home.css"
-import hero from "../pic/hero.jpg"
-import java from "../pic/java.png"
-import python from "../pic/python.png"
-import react from "../pic/react.png"
-import { Typewriter } from "react-simple-typewriter"
+import hero from "../pic/try4.png"
+import Features from "../Features/forHome"
+import Resume from "../Resume/Resume"
+import Contact from "../Contact/Contact"
 
 const Home = () => {
   return (
@@ -16,14 +15,8 @@ const Home = () => {
             <h1>
               Hello, My Name is <span>Adriana Reyes</span>
             </h1>
-            {/* <h2>
-              a
-              <span>
-                <Typewriter words={[" Developer.", " Student.", " Developer.", " Student."]} loop cursor cursorStyle='|' typeSpeed={90} deleteSpeed={70} delaySpeed={1000}/>
-              </span>
-            </h2> */}
 
-            <p>I'm a Junior at the University of Texas at Austin pursuing Texas Honors Computer Science + Canfield Business Honors Program. I've had the amazing opportunity to gain ReactJS web development experience as an intern at Microsoft over the past two summers. Because of my experience with Python and Java, I am aspiring to break into the quantitaive trading space.</p>
+            <p>I'm Adriana Reyes, a Computer Science student at The University of Texas at Austin. With internships at Salesforce and Microsoft, I've honed my skills in software engineering, enhancing platform quality and creating customer-centric solutions. During my time at Microsoft, I got introduced to the world of SaaS B2B solutions and continued to develop my knowledge and interest in this area during my internship at Salesforce this past summer. Beyond my studies, I'm dedicated to promoting diversity in tech as a member of the Hispanic Association of Computer Scientists and a UT Computer Science Ambassador. Additionally, I'm fluent in Spanish and have a strong passion for cybersecurity and UI/UX design.</p>
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>Connect With Me</h4>
@@ -59,12 +52,22 @@ const Home = () => {
               </div> */}
             </div>
           </div>
-          <div className='right'>
             <div className='right_img'>
-              <img className='hero_img' src={hero} alt='' />
+              <img className='left_img' src={hero} alt='' />
             </div>
-          </div>
         </div>
+      </section>
+      <section>
+        <Features/>
+      </section>
+      <section>
+        <Resume/>
+      </section>
+      {/* <section>
+        <Blog/>
+      </section> */}
+      <section>
+        <Contact/>
       </section>
     </>
   )
