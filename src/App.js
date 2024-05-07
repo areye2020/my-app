@@ -4,7 +4,7 @@ import Header from "./Components/Head/Header";
 import Home from "./Components/Hero/Home";
 import Resume from "./Components/Resume/Resume";
 import Contact from "./Components/Contact/Contact";
-import Journey from "./Components/Testimonial/Testimonial.js";
+import Journey from "./Components/Testimonial/journey";
 import Footer from "./Components/Footer";
 import "./App.css";
 
