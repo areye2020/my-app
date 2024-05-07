@@ -70,7 +70,7 @@ button {
   width: 50%;
 }
 .top {
-  margin-top: 2%;
+  margin-top: 80px;
 }
 .mtop {
   margin-top: 40px;
@@ -129,9 +129,4 @@ footer p {
   .right {
     width: 100%;
   }
-}
-
-.scroll-top {
-  scroll-behavior: smooth;
-  scroll-margin-top: 1px;
 }

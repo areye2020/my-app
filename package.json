@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://areye2020.github.io/my-app",
   "private": true,
+  "homepage": "https://areye2020.github.io/my-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -10,7 +11,6 @@
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^3.0.1",
     "web-vitals": "^2.1.4"

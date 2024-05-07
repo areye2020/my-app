@@ -8,7 +8,7 @@ import Contact from "../Contact/Contact"
 const Home = () => {
   return (
     <>
-      <section className='hero scroll-top' id='home'>
+      <section className='hero' id='home'>
         <div className='container f_flex top'>
           <div className='left top'>
             <h3>WELCOME TO MY WORLD</h3>
