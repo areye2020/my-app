@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <section className='hero' id='home'>
         <div className='container f_flex top'>
-          <div className='left top'>
+          <div className='left lefTop'>
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
               Hello, My Name is <span>Adriana Reyes</span>
