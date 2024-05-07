@@ -1,7 +1,7 @@
 import React from "react"
 import "./Home.css"
 import hero from "../pic/try4.png"
-import Features from "../Features/forHome"
+import Features from "../Features/Features.js"
 import Resume from "../Resume/Resume"
 import Contact from "../Contact/Contact"
 
